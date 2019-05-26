@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="102462" started-at="2019-05-26T21:04:50Z" finished-at="2019-05-26T21:06:33Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:cucumber.CucumberRunner@506e6d5e]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Surefire test" duration-ms="102462" started-at="2019-05-26T21:04:50Z" finished-at="2019-05-26T21:06:33Z">
+      <class name="cucumber.CucumberRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:cucumber.CucumberRunner@506e6d5e]" name="setUpClass" is-config="true" duration-ms="300" started-at="2019-05-27T09:04:50Z" finished-at="2019-05-27T09:04:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:cucumber.CucumberRunner@506e6d5e]" name="feature" duration-ms="46166" started-at="2019-05-27T09:04:51Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-05-27T09:05:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Kiwi saver retirment calc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:cucumber.CucumberRunner@506e6d5e]" name="feature" duration-ms="55847" started-at="2019-05-27T09:05:37Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-05-27T09:06:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Kiwi saver retirment calc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:cucumber.CucumberRunner@506e6d5e]" name="tearDownClass" is-config="true" duration-ms="33" started-at="2019-05-27T09:06:33Z" finished-at="2019-05-27T09:06:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- cucumber.CucumberRunner -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

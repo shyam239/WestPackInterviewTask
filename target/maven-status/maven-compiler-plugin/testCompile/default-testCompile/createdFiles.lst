@@ -1,0 +1,11 @@
+pom\BankingProduct.class
+pom\MainPage.class
+pom\KiwiSaverRetirmentCalcPage.class
+pom\KiwiSaverPage.class
+pom\PersonalBankingHeader.class
+cucumber\CucumberRunner.class
+utils\Jutils.class
+utils\GetPropFile.class
+utils\LoggerUtil.class
+cucumber\stepdefinitions\KiwiSaverCalcSteps.class
+utils\JavaScripts.class
