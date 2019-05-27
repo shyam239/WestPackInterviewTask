@@ -30,8 +30,9 @@ Feature: Kiwi saver retirment calc
     And Check the projected balance is displayed
 
   @Ac2 @Self-Employed
-  Scenario: Projected Balance Check for Self-Employed, age 45, PIRRate 10.5, KiwiBalance 100000, Vol contribution 90, 
-  frequency Forthnightly, RiskProfile Medium and Saving goal of 290000
+  Scenario: Projected Balance Check for Self-Employed, age 45, PIRRate 10.5, KiwiBalance 100000, Vol contribution 90,
+    frequency Forthnightly, RiskProfile Medium and Saving goal of 290000
+
     Given I am in the Westpac New Zealand Limitied banking website
     When Navigated to KiwiSaver Retirment Calculator page
     Then Enter <inputValues> to KiwiSaverRetirmentCalc
@@ -55,30 +56,31 @@ Feature: Kiwi saver retirment calc
       | Apply infletion                       | InflationOption             | NA            |
       | Income increase per year              | AnnualIncomeIncrease        | NA            |
     And Check the projected balance is displayed
-    
-      @Ac3 @Not-Employed
-  Scenario: Projected Balance Check for Not Employed, age 55, PIRRate 10.5, KiwiBalance 140000, Vol contribution 10, 
-  frequency Annually, RiskProfile Medium and Saving goal of 200000
+
+  @Ac3 @Not-Employed
+  Scenario: Projected Balance Check for Not Employed, age 55, PIRRate 10.5, KiwiBalance 140000, Vol contribution 10,
+    frequency Annually, RiskProfile Medium and Saving goal of 200000
+
     Given I am in the Westpac New Zealand Limitied banking website
     When Navigated to KiwiSaver Retirment Calculator page
     Then Enter <inputValues> to KiwiSaverRetirmentCalc
-      | Field Name                            | HelpId                      | Input Values  |
-      | Current age                           | CurrentAge                  |            55 |
+      | Field Name                            | HelpId                      | Input Values |
+      | Current age                           | CurrentAge                  |           55 |
       | Employment status                     | EmploymentStatus            | Not employed |
-      | Salary or wages per year (before tax) | AnnualIncome                | NA            |
-      | KiwiSaver member contribution         | KiwiSaverMemberContribution | NA            |
-      | Prescribed investor rate (PIR)        | PIRRate                     | 10.5%         |
-      | Find My Rate                          | FindMyPIRRateQ1             | NA            |
-      | Taxable Income                        | NA                          | NA            |
-      | Current KiwiSaver balance             | KiwiSaverBalance            |        140000 |
-      | Voluntary contributions               | VoluntaryContributions      |            10 |
-      | Voluntary contribution frequency      | NA                          | Annually   |
-      | Risk profile                          | RiskProfile                 | Medium        |
-      | Savings goal at retirement            | SavingsGoal                 |        200000 |
-      | Estimated results                     | Results                     | NA            |
-      | Result explanation                    | ResultsExplanation          | NA            |
-      | Life expendancy                       | LifeExpectancy              | NA            |
-      | Intended retirment age                | RetirementAge               | NA            |
-      | Apply infletion                       | InflationOption             | NA            |
-      | Income increase per year              | AnnualIncomeIncrease        | NA            |
+      | Salary or wages per year (before tax) | AnnualIncome                | NA           |
+      | KiwiSaver member contribution         | KiwiSaverMemberContribution | NA           |
+      | Prescribed investor rate (PIR)        | PIRRate                     | 10.5%        |
+      | Find My Rate                          | FindMyPIRRateQ1             | NA           |
+      | Taxable Income                        | NA                          | NA           |
+      | Current KiwiSaver balance             | KiwiSaverBalance            |       140000 |
+      | Voluntary contributions               | VoluntaryContributions      |           10 |
+      | Voluntary contribution frequency      | NA                          | Annually     |
+      | Risk profile                          | RiskProfile                 | Medium       |
+      | Savings goal at retirement            | SavingsGoal                 |       200000 |
+      | Estimated results                     | Results                     | NA           |
+      | Result explanation                    | ResultsExplanation          | NA           |
+      | Life expendancy                       | LifeExpectancy              | NA           |
+      | Intended retirment age                | RetirementAge               | NA           |
+      | Apply infletion                       | InflationOption             | NA           |
+      | Income increase per year              | AnnualIncomeIncrease        | NA           |
     And Check the projected balance is displayed
