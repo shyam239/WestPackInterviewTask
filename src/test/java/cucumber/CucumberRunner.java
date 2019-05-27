@@ -8,7 +8,7 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
 		"html:target/CucumberHTML/"},
 		features = {"src/test/resources/Fetures/"},
 		glue = {"classpath:cucumber.stepdefinitions"},
-		tags = {"@KiwiSaverCalc"},
+		tags = {"@Ac1"},
 		monochrome = true,
 		dryRun = false	
 		)

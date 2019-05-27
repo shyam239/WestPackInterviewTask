@@ -27,7 +27,7 @@ public class LoggerUtil {
 
     	//This is to print log for the ending of the test case
 
-    public static void endTestCase(String sTestCaseName){
+    public void endTestCase(String sTestCaseName){
 
     	logger.info("====================================End=Of=Test===========================================");
 
@@ -35,7 +35,7 @@ public class LoggerUtil {
 
     	// Need to create these methods, so that they can be called  
 
-    public static void info(String message) {
+    public void info(String message) {
 
     		logger.info(message);
 
@@ -47,7 +47,7 @@ public class LoggerUtil {
 
     	}
 
-    public static void error(String message) {
+    public void error(String message) {
 
        logger.error(message);
 

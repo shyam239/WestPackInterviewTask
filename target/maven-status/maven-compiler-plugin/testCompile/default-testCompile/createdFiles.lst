@@ -4,6 +4,7 @@ pom\KiwiSaverRetirmentCalcPage.class
 pom\KiwiSaverPage.class
 pom\PersonalBankingHeader.class
 cucumber\CucumberRunner.class
+utils\LoggerUtils.class
 utils\Jutils.class
 utils\GetPropFile.class
 utils\LoggerUtil.class

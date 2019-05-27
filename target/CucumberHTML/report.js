@@ -23,7 +23,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 3306765190,
+  "duration": 3522721563,
   "status": "passed"
 });
 formatter.scenario({
@@ -223,29 +223,29 @@ formatter.match({
   "location": "KiwiSaverCalcSteps.i_am_in_the_Westpac_New_Zealand_Limitied_banking_website()"
 });
 formatter.result({
-  "duration": 3711616622,
+  "duration": 3691179306,
   "status": "passed"
 });
 formatter.match({
   "location": "KiwiSaverCalcSteps.navigated_to_KiwiSaver_Retirment_Calculator_page()"
 });
 formatter.result({
-  "duration": 4468575235,
+  "duration": 4845264715,
   "status": "passed"
 });
 formatter.match({
   "location": "KiwiSaverCalcSteps.vlaidate_the_fileds_present_with_information_icon(DataTable)"
 });
 formatter.result({
-  "duration": 16925989985,
+  "duration": 16793580805,
   "status": "passed"
 });
 formatter.after({
-  "duration": 738037935,
+  "duration": 743969783,
   "status": "passed"
 });
 formatter.before({
-  "duration": 2169210335,
+  "duration": 2160265750,
   "status": "passed"
 });
 formatter.scenario({
@@ -299,25 +299,25 @@ formatter.match({
   "location": "KiwiSaverCalcSteps.i_am_in_the_Westpac_New_Zealand_Limitied_banking_website()"
 });
 formatter.result({
-  "duration": 3447101276,
+  "duration": 3589979188,
   "status": "passed"
 });
 formatter.match({
   "location": "KiwiSaverCalcSteps.navigated_to_KiwiSaver_Retirment_Calculator_page()"
 });
 formatter.result({
-  "duration": 4103845449,
+  "duration": 4297931616,
   "status": "passed"
 });
 formatter.match({
   "location": "KiwiSaverCalcSteps.vlaidate_the_helpIds_displays_the_expected_help_text(DataTable)"
 });
 formatter.result({
-  "duration": 6349197551,
+  "duration": 6253419257,
   "status": "passed"
 });
 formatter.after({
-  "duration": 896280576,
+  "duration": 801231170,
   "status": "passed"
 });
 formatter.uri("kiwiSaverRetirmentCalcPageInvestmentPlan.feature");
@@ -345,7 +345,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 2117504302,
+  "duration": 2174218529,
   "status": "passed"
 });
 formatter.scenario({
@@ -544,36 +544,36 @@ formatter.match({
   "location": "KiwiSaverCalcSteps.i_am_in_the_Westpac_New_Zealand_Limitied_banking_website()"
 });
 formatter.result({
-  "duration": 3261957719,
+  "duration": 3334803488,
   "status": "passed"
 });
 formatter.match({
   "location": "KiwiSaverCalcSteps.navigated_to_KiwiSaver_Retirment_Calculator_page()"
 });
 formatter.result({
-  "duration": 4994069733,
+  "duration": 4664322240,
   "status": "passed"
 });
 formatter.match({
   "location": "KiwiSaverCalcSteps.enter_inputValues_to_KiwiSaverRetirmentCalc(DataTable)"
 });
 formatter.result({
-  "duration": 7133388932,
+  "duration": 7325664138,
   "status": "passed"
 });
 formatter.match({
   "location": "KiwiSaverCalcSteps.check_the_projected_balance_is_displayed()"
 });
 formatter.result({
-  "duration": 113836157,
+  "duration": 199325472,
   "status": "passed"
 });
 formatter.after({
-  "duration": 712001018,
+  "duration": 721009999,
   "status": "passed"
 });
 formatter.before({
-  "duration": 2133492438,
+  "duration": 2176197787,
   "status": "passed"
 });
 formatter.scenario({
@@ -772,36 +772,36 @@ formatter.match({
   "location": "KiwiSaverCalcSteps.i_am_in_the_Westpac_New_Zealand_Limitied_banking_website()"
 });
 formatter.result({
-  "duration": 2946478659,
+  "duration": 3448954114,
   "status": "passed"
 });
 formatter.match({
   "location": "KiwiSaverCalcSteps.navigated_to_KiwiSaver_Retirment_Calculator_page()"
 });
 formatter.result({
-  "duration": 4976087722,
+  "duration": 4587020573,
   "status": "passed"
 });
 formatter.match({
   "location": "KiwiSaverCalcSteps.enter_inputValues_to_KiwiSaverRetirmentCalc(DataTable)"
 });
 formatter.result({
-  "duration": 7380981822,
+  "duration": 7778858842,
   "status": "passed"
 });
 formatter.match({
   "location": "KiwiSaverCalcSteps.check_the_projected_balance_is_displayed()"
 });
 formatter.result({
-  "duration": 120982028,
+  "duration": 206471738,
   "status": "passed"
 });
 formatter.after({
-  "duration": 731707076,
+  "duration": 707357861,
   "status": "passed"
 });
 formatter.before({
-  "duration": 2074111546,
+  "duration": 2123638420,
   "status": "passed"
 });
 formatter.scenario({
@@ -1000,32 +1000,32 @@ formatter.match({
   "location": "KiwiSaverCalcSteps.i_am_in_the_Westpac_New_Zealand_Limitied_banking_website()"
 });
 formatter.result({
-  "duration": 3547425938,
+  "duration": 3315867010,
   "status": "passed"
 });
 formatter.match({
   "location": "KiwiSaverCalcSteps.navigated_to_KiwiSaver_Retirment_Calculator_page()"
 });
 formatter.result({
-  "duration": 4794698039,
+  "duration": 4136890361,
   "status": "passed"
 });
 formatter.match({
   "location": "KiwiSaverCalcSteps.enter_inputValues_to_KiwiSaverRetirmentCalc(DataTable)"
 });
 formatter.result({
-  "duration": 7913596513,
+  "duration": 7872048299,
   "status": "passed"
 });
 formatter.match({
   "location": "KiwiSaverCalcSteps.check_the_projected_balance_is_displayed()"
 });
 formatter.result({
-  "duration": 103756165,
+  "duration": 197401523,
   "status": "passed"
 });
 formatter.after({
-  "duration": 761177077,
+  "duration": 693302761,
   "status": "passed"
 });
 });

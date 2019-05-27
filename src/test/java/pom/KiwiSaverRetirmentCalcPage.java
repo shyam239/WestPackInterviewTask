@@ -11,6 +11,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 
 import utils.JavaScripts;
 import utils.Jutils;
+import utils.LoggerUtil;
 
 public class KiwiSaverRetirmentCalcPage extends MainPage{
 
@@ -20,6 +21,7 @@ public class KiwiSaverRetirmentCalcPage extends MainPage{
 	
 	JavaScripts jsUtils=new JavaScripts();
 	Jutils jUtils=new Jutils();
+	LoggerUtil logger=new LoggerUtil();
 	
 	/* Elements of KiwiSaverRetirmentCalc Page*/
 	
@@ -314,8 +316,10 @@ public class KiwiSaverRetirmentCalcPage extends MainPage{
 			btnInfo.click();
 			jsUtils.highLightElement(btnInfo,driver);
 			jUtils.takeScreenShot(driver, infoBtnName);
+			logger.info("Clicked Info button "+infoBtnName+". ");
 		} catch (Exception e) {
-			//e.printStackTrace();
+			logger.info("Unable to click Info button "+infoBtnName+". ");
+			logger.error("And the error was " + e);
 		}
 	}
 	
@@ -335,9 +339,11 @@ public class KiwiSaverRetirmentCalcPage extends MainPage{
 			jsUtils.moveToElement(btnInfo,driver);
 			jsUtils.highLightElement(btnInfo,driver);
 			jUtils.takeScreenShot(driver, infoBtnName);
+			logger.info("Expect Info button "+infoBtnName+" is displayed. ");
 			rslt=btnInfo.isDisplayed();
 		} catch (Exception e) {
-			//e.printStackTrace();
+			logger.error("Expect Info button "+infoBtnName+" is not displayed. ");
+			logger.error("And the error was " + e);
 		}
 		return rslt;
 	}
@@ -348,7 +354,8 @@ public class KiwiSaverRetirmentCalcPage extends MainPage{
 	 * returns true if info button or icon element is present, if element is not present then returns false
 	 */
 	public boolean btnInfoIsDisplayedFor(String infoBtnName) {
-		WebElement btnInfo=driver.findElement(By.cssSelector("div[help-id='"+infoBtnName+"'][class='ng-isolate-scope']>button[class='icon-target icon-target-help-toggle icon-btn icon-btn-info ir ng-scope']"));
+		WebElement btnInfo=driver.findElement(By.cssSelector("div[help-id='"+infoBtnName+"']"
+				+ "[class='ng-isolate-scope']>button[class='icon-target icon-target-help-toggle icon-btn icon-btn-info ir ng-scope']"));
 		return btnInfo.isDisplayed();
 	}
 	
@@ -413,6 +420,7 @@ public class KiwiSaverRetirmentCalcPage extends MainPage{
 			rslt=expHelp.equals(visibleHelp.getText());
 			jsUtils.highLightElement(visibleHelp,driver);
 			jUtils.takeScreenShot(driver, expHelp);
+			logger.info("Expected help info icon "+expHelp+" is Visible, Screenshot captured and stored");
 			}
 		return rslt;
 	}
@@ -426,46 +434,60 @@ public class KiwiSaverRetirmentCalcPage extends MainPage{
 	 */
 	public void enterCalcInput(List<List<String>> data) {
 		switchToCalcIframe();
+		logger.info("Switch to KiwiSaverCalc iframe ");
 		
 		if(!data.get(1).get(2).equals("NA")) {
 			enterCurrentAge(data.get(1).get(2));
+			logger.info("Current Age entered ="+data.get(1).get(2));
 		}
 		if(!data.get(2).get(2).equals("NA")) {
 			selectEmpStat(data.get(2).get(2));
+			logger.info("Emp Status entered ");
 		}
 		if(!data.get(3).get(2).equals("NA")) {
 			enterAnnualIncome(data.get(3).get(2));
+			logger.info("Annual income entered ="+data.get(2).get(2));
 		}
 		if(!data.get(4).get(2).equals("NA")) {
 			clickKiwiSavMemContibution(data.get(4).get(2));
+			logger.info("KiwiSaver Member contribution selected ="+data.get(4).get(2));
 		}
 		if(!data.get(5).get(2).equals("NA")) {
 			selectPRIRate(data.get(5).get(2));
+			logger.info("PRI rate selected ="+data.get(5).get(2));
 		}
 		if(!data.get(7).get(2).equals("NA")) {
 			clickViewFindMyRate();
 			selectTaxableIncome(data.get(7).get(2));
+			logger.info("Taxable income selected ");
 		}
 		if(!data.get(8).get(2).equals("NA")) {
 			enterCurrentKiwiSavBal(data.get(8).get(2));
+			logger.info("KiwiSaver current balance entered ="+data.get(8).get(2));
 		}
 		if(!data.get(9).get(2).equals("NA")) {
 			enterVoluContribution(data.get(9).get(2));
+			logger.info("Vol contribution entered ="+data.get(9).get(2));
 		}
 		if(!data.get(10).get(2).equals("NA")) {
-		selectVolContriFrequ(data.get(10).get(2));
+			selectVolContriFrequ(data.get(10).get(2));
+			logger.info("Vol contribution frequancy selected ="+data.get(10).get(2));
 		}
 		
 		if(data.get(11).get(2).equals("Low")) {
 			clickBtnRiskProfLow();
+			logger.info("Low risk selected ");
 		}else if(data.get(11).get(2).equals("Medium")) {
 			clickBtnRiskProfMedium();
+			logger.info("Medium risk selected ");
 		}else if(data.get(11).get(2).equals("High")){
 			clickBthRiskProfHigh();
+			logger.info("High risk selected ");
 		}
 		
 		if(!data.get(12).get(2).equals("NA")) {
 			enterSavGoal(data.get(12).get(2));
+			logger.info("Saving goal entered ="+data.get(12).get(2));
 		}
 		
 		if(!data.get(6).get(2).equals("NA")) {
@@ -473,6 +495,7 @@ public class KiwiSaverRetirmentCalcPage extends MainPage{
 		}
 
 		clickBtnShowResultPanel();
+		logger.info("Switch back to normal frame ");
 		
 	}
 	

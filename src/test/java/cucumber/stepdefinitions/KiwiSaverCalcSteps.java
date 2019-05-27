@@ -36,6 +36,7 @@ public class KiwiSaverCalcSteps {
 		options.addArguments("--start-maximized");
 		driver = new ChromeDriver(options);
 		scenarioName=scenario.getName();
+		logger.startTestCase(scenarioName);
 	}
 	
 
@@ -46,8 +47,11 @@ public class KiwiSaverCalcSteps {
 	public void tearDown(Scenario scenario) {
 		if(scenario.isFailed()) {
 			jUtils.takeScreenShot(driver, "FailedScenario/"+scenario.getName());
+			logger.error(scenarioName+" failed please check screen shot for high level information");
+			logger.error("Screen shot name is "+"FailedScenario"+scenario.getName());
 		}
 		driver.quit();
+		logger.endTestCase(scenarioName);
 	}
 	
 	@Given("^I am in the Westpac New Zealand Limitied banking website$")
@@ -55,6 +59,7 @@ public class KiwiSaverCalcSteps {
 		MainPage mainPage=new MainPage(driver);
 		mainPage.navigateToWestpacMainPage();
 		Assert.assertEquals(true, mainPage.checkUrlIsEqualToMainPage("https://www.westpac.co.nz/"));
+		logger.info("Navigated to main page");
 	}
 
 	@When("^Navigated to KiwiSaver Retirment Calculator page$")
@@ -67,9 +72,11 @@ public class KiwiSaverCalcSteps {
 		Assert.assertEquals(true, bankProd.checkSlectedHeaderIs("Personal")); // to double check the Personal banking is selected
 		perBankingHeader.moveMouseTo("KiwiSaver");
 		perBankingHeader.clickKiwiSaverCalc();
-		kiwiSaverPage.checkUrlIsEqualToKiwiSaverPage("https://www.westpac.co.nz/kiwisaver/calculators/");
+		Assert.assertTrue("Expected page was not loaded ",
+				kiwiSaverPage.checkUrlIsEqualToKiwiSaverPage("https://www.westpac.co.nz/kiwisaver/calculators/"));
 		kiwiSaverPage.clickBtnClickHereToGetStarted();
-		kiwiSavRetiCalPage.checkUrlIsEqualToKiwiSaverPage("https://www.westpac.co.nz/kiwisaver/calculators/kiwisaver-calculator/");
+		Assert.assertTrue("Expected page was not loaded ",
+				kiwiSavRetiCalPage.checkUrlIsEqualToKiwiSaverPage("https://www.westpac.co.nz/kiwisaver/calculators/kiwisaver-calculator/"));
 	}
 
 	/**
@@ -131,6 +138,7 @@ public class KiwiSaverCalcSteps {
 	public void check_the_projected_balance_is_displayed() throws Throwable {
 		KiwiSaverRetirmentCalcPage kiwiSavRetiCalPage=new KiwiSaverRetirmentCalcPage(driver);
 		Assert.assertTrue("Expected some value in Estimated amount but no value has populated", kiwiSavRetiCalPage.getEstimatedAmt().length()!=0);
+		logger.info("Estimated amount is populated, and the amout is "+kiwiSavRetiCalPage.getEstimatedAmt());
 	}
 
 }
