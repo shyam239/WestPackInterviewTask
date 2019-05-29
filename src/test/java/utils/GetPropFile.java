@@ -7,10 +7,10 @@ import java.util.Properties;
 
 public class GetPropFile {
 	
-	public String forDrivers(String searchFor) {
+	public String log4JConfigFile(String searchFor) {
 		Properties prop=new Properties();
 			try {
-			InputStream input=new FileInputStream("src/test/resources/propertiesfiles/driverLocation.properties");
+			InputStream input=new FileInputStream("src/test/resources/configfiles/Log4j.properties");
 			prop.load(input);
 		} catch (IOException e) {
 			e.printStackTrace();

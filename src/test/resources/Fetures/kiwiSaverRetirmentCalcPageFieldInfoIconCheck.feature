@@ -30,7 +30,7 @@ Feature: Kiwi saver retirment calc
       | Apply infletion                       | InflationOption             | NA              |
       | Income increase per year              | AnnualIncomeIncrease        | NA              |
 
-  @HelpTextValidation 
+  @HelpTextValidation
   Scenario: Expected help text displayed for clicked help button
     Given I am in the Westpac New Zealand Limitied banking website
     When Navigated to KiwiSaver Retirment Calculator page
