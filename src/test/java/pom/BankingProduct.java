@@ -7,6 +7,10 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
+import utils.JavaScripts;
+import utils.Jutils;
+import utils.LoggerUtil;
+
 /**
  * @author Shyam Periyasamy
  * This class contains the common objects of all the Banking sw-header-menu-link 
@@ -17,6 +21,10 @@ public class BankingProduct extends MainPage {
 	public BankingProduct(WebDriver driver) {
 		super(driver);
 	}
+	
+	JavaScripts jsUtils=new JavaScripts();
+	Jutils jUtils=new Jutils();
+	LoggerUtil logger=new LoggerUtil();
 	
 	/* WebElements of sw-header-menu-link*/
 	
@@ -54,7 +62,10 @@ public class BankingProduct extends MainPage {
 			for (int i=0;i<headingLinkCommon;i++) {
 				ele=(WebElement) lstHeaders.get(i);
 				if (ele.getText().equals(header)) {
+					jsUtils.moveToElement(ele, driver);
+					driverWaitFor(10).until(ExpectedConditions.elementToBeClickable(ele));
 					ele.click();
+					logger.info("Clicked  "+ele.getText());
 				break;
 				}
 			}

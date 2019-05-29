@@ -1,0 +1,279 @@
+[INFO ] 2019-05-29 17:26:29.189 [main] LoggerUtil - ----------------------------------------------------------------------------------------
+[INFO ] 2019-05-29 17:26:29.194 [main] LoggerUtil - --------------------                 Information Icon presece check for all fields in Kiwi saver retirment calc page With chrome     
+[INFO ] 2019-05-29 17:26:29.194 [main] LoggerUtil - ----------------------------------------------------------------------------------------
+[INFO ] 2019-05-29 17:26:32.897 [main] LoggerUtil - Navigated to main page
+[INFO ] 2019-05-29 17:26:42.417 [main] LoggerUtil - Switch to KiwiSaverCalc iframe 
+[INFO ] 2019-05-29 17:26:42.531 [main] LoggerUtil - Current Age entered =64
+[INFO ] 2019-05-29 17:26:42.947 [main] LoggerUtil - Emp Status entered 
+[INFO ] 2019-05-29 17:26:43.246 [main] LoggerUtil - Annual income entered =Employed
+[INFO ] 2019-05-29 17:26:43.396 [main] LoggerUtil - KiwiSaver Member contribution selected =6
+[INFO ] 2019-05-29 17:26:43.705 [main] LoggerUtil - PRI rate selected =10.5%
+[INFO ] 2019-05-29 17:26:44.832 [main] LoggerUtil - Taxable income selected 
+[INFO ] 2019-05-29 17:26:44.942 [main] LoggerUtil - KiwiSaver current balance entered =1000
+[INFO ] 2019-05-29 17:26:45.044 [main] LoggerUtil - Vol contribution entered =100
+[INFO ] 2019-05-29 17:26:46.025 [main] LoggerUtil - Vol contribution frequancy selected =Monthly
+[INFO ] 2019-05-29 17:26:46.699 [main] LoggerUtil - Medium risk selected 
+[INFO ] 2019-05-29 17:26:46.864 [main] LoggerUtil - Saving goal entered =30000
+[INFO ] 2019-05-29 17:26:48.265 [main] LoggerUtil - Switch back to normal frame 
+[INFO ] 2019-05-29 17:26:49.392 [main] LoggerUtil - Expect Info button CurrentAge is displayed. 
+[INFO ] 2019-05-29 17:26:50.517 [main] LoggerUtil - Expect Info button EmploymentStatus is displayed. 
+[INFO ] 2019-05-29 17:26:51.475 [main] LoggerUtil - Expect Info button AnnualIncome is displayed. 
+[INFO ] 2019-05-29 17:26:52.402 [main] LoggerUtil - Expect Info button KiwiSaverMemberContribution is displayed. 
+[INFO ] 2019-05-29 17:26:53.350 [main] LoggerUtil - Expect Info button PIRRate is displayed. 
+[INFO ] 2019-05-29 17:26:54.994 [main] LoggerUtil - Expect Info button FindMyPIRRateQ1 is displayed. 
+[INFO ] 2019-05-29 17:26:55.925 [main] LoggerUtil - Expect Info button KiwiSaverBalance is displayed. 
+[INFO ] 2019-05-29 17:26:56.866 [main] LoggerUtil - Expect Info button VoluntaryContributions is displayed. 
+[INFO ] 2019-05-29 17:26:57.798 [main] LoggerUtil - Expect Info button RiskProfile is displayed. 
+[INFO ] 2019-05-29 17:26:58.737 [main] LoggerUtil - Expect Info button SavingsGoal is displayed. 
+[INFO ] 2019-05-29 17:26:59.663 [main] LoggerUtil - Expect Info button Results is displayed. 
+[INFO ] 2019-05-29 17:27:00.588 [main] LoggerUtil - Expect Info button ResultsExplanation is displayed. 
+[INFO ] 2019-05-29 17:27:01.515 [main] LoggerUtil - Expect Info button LifeExpectancy is displayed. 
+[INFO ] 2019-05-29 17:27:02.443 [main] LoggerUtil - Expect Info button RetirementAge is displayed. 
+[INFO ] 2019-05-29 17:27:03.372 [main] LoggerUtil - Expect Info button InflationOption is displayed. 
+[INFO ] 2019-05-29 17:27:04.271 [main] LoggerUtil - Expect Info button AnnualIncomeIncrease is displayed. 
+[INFO ] 2019-05-29 17:27:05.050 [main] LoggerUtil - ====================================End=Of=Test===========================================
+[INFO ] 2019-05-29 17:27:07.169 [main] LoggerUtil - ----------------------------------------------------------------------------------------
+[INFO ] 2019-05-29 17:27:07.169 [main] LoggerUtil - --------------------                 Expected help text displayed for clicked help button With chrome     
+[INFO ] 2019-05-29 17:27:07.170 [main] LoggerUtil - ----------------------------------------------------------------------------------------
+[INFO ] 2019-05-29 17:27:10.580 [main] LoggerUtil - Navigated to main page
+[INFO ] 2019-05-29 17:27:21.017 [main] LoggerUtil - Clicked Info button CurrentAge. 
+[INFO ] 2019-05-29 17:27:21.510 [main] LoggerUtil - Expected help info icon This calculator has an age limit of 64 years old as you need to be under the age of 65 to join KiwiSaver. is Visible, Screenshot captured and stored
+[INFO ] 2019-05-29 17:27:22.255 [main] LoggerUtil - ====================================End=Of=Test===========================================
+[INFO ] 2019-05-29 17:27:24.308 [main] LoggerUtil - ----------------------------------------------------------------------------------------
+[INFO ] 2019-05-29 17:27:24.308 [main] LoggerUtil - --------------------                 Projected Balance Check for Employed, age 30, Anual income 82000, KiwiMemContribution 4, PIRRate 17.5 and RiskProfile High With chrome     
+[INFO ] 2019-05-29 17:27:24.308 [main] LoggerUtil - ----------------------------------------------------------------------------------------
+[INFO ] 2019-05-29 17:27:27.642 [main] LoggerUtil - Navigated to main page
+[INFO ] 2019-05-29 17:27:37.050 [main] LoggerUtil - Switch to KiwiSaverCalc iframe 
+[INFO ] 2019-05-29 17:27:37.148 [main] LoggerUtil - Current Age entered =30
+[INFO ] 2019-05-29 17:27:37.528 [main] LoggerUtil - Emp Status entered 
+[INFO ] 2019-05-29 17:27:37.972 [main] LoggerUtil - Annual income entered =Employed
+[INFO ] 2019-05-29 17:27:38.157 [main] LoggerUtil - KiwiSaver Member contribution selected =4
+[INFO ] 2019-05-29 17:27:38.540 [main] LoggerUtil - PRI rate selected =17.5%
+[INFO ] 2019-05-29 17:27:39.223 [main] LoggerUtil - High risk selected 
+[INFO ] 2019-05-29 17:27:39.937 [main] LoggerUtil - Switch back to normal frame 
+[INFO ] 2019-05-29 17:27:40.487 [main] LoggerUtil - Scroll the webpage to find the estimated amout element
+[INFO ] 2019-05-29 17:27:41.074 [main] LoggerUtil - Scroll the webpage to find the estimated amout element
+[INFO ] 2019-05-29 17:27:41.653 [main] LoggerUtil - Estimated amount is populated, and the amout is $313,971
+[INFO ] 2019-05-29 17:27:42.358 [main] LoggerUtil - ====================================End=Of=Test===========================================
+[INFO ] 2019-05-29 17:27:44.489 [main] LoggerUtil - ----------------------------------------------------------------------------------------
+[INFO ] 2019-05-29 17:27:44.490 [main] LoggerUtil - --------------------                 Projected Balance Check for Self-Employed, age 45, PIRRate 10.5, KiwiBalance 100000, Vol contribution 90, With chrome     
+[INFO ] 2019-05-29 17:27:44.491 [main] LoggerUtil - ----------------------------------------------------------------------------------------
+[INFO ] 2019-05-29 17:27:48.055 [main] LoggerUtil - Navigated to main page
+[INFO ] 2019-05-29 17:27:57.196 [main] LoggerUtil - Switch to KiwiSaverCalc iframe 
+[INFO ] 2019-05-29 17:27:57.309 [main] LoggerUtil - Current Age entered =45
+[INFO ] 2019-05-29 17:27:57.569 [main] LoggerUtil - Emp Status entered 
+[INFO ] 2019-05-29 17:27:57.912 [main] LoggerUtil - PRI rate selected =10.5%
+[INFO ] 2019-05-29 17:27:58.036 [main] LoggerUtil - KiwiSaver current balance entered =100000
+[INFO ] 2019-05-29 17:27:58.127 [main] LoggerUtil - Vol contribution entered =90
+[INFO ] 2019-05-29 17:27:59.101 [main] LoggerUtil - Vol contribution frequancy selected =Fortnightly
+[INFO ] 2019-05-29 17:27:59.767 [main] LoggerUtil - Medium risk selected 
+[INFO ] 2019-05-29 17:27:59.909 [main] LoggerUtil - Saving goal entered =290000
+[INFO ] 2019-05-29 17:28:00.616 [main] LoggerUtil - Switch back to normal frame 
+[INFO ] 2019-05-29 17:28:01.140 [main] LoggerUtil - Scroll the webpage to find the estimated amout element
+[INFO ] 2019-05-29 17:28:01.724 [main] LoggerUtil - Scroll the webpage to find the estimated amout element
+[INFO ] 2019-05-29 17:28:02.292 [main] LoggerUtil - Estimated amount is populated, and the amout is $230,481
+[INFO ] 2019-05-29 17:28:02.994 [main] LoggerUtil - ====================================End=Of=Test===========================================
+[INFO ] 2019-05-29 17:28:05.057 [main] LoggerUtil - ----------------------------------------------------------------------------------------
+[INFO ] 2019-05-29 17:28:05.057 [main] LoggerUtil - --------------------                 Projected Balance Check for Not Employed, age 55, PIRRate 10.5, KiwiBalance 140000, Vol contribution 10, With chrome     
+[INFO ] 2019-05-29 17:28:05.057 [main] LoggerUtil - ----------------------------------------------------------------------------------------
+[INFO ] 2019-05-29 17:28:09.562 [main] LoggerUtil - Navigated to main page
+[INFO ] 2019-05-29 17:28:19.539 [main] LoggerUtil - Switch to KiwiSaverCalc iframe 
+[INFO ] 2019-05-29 17:28:19.657 [main] LoggerUtil - Current Age entered =55
+[INFO ] 2019-05-29 17:28:19.910 [main] LoggerUtil - Emp Status entered 
+[INFO ] 2019-05-29 17:28:20.212 [main] LoggerUtil - PRI rate selected =10.5%
+[INFO ] 2019-05-29 17:28:20.335 [main] LoggerUtil - KiwiSaver current balance entered =140000
+[INFO ] 2019-05-29 17:28:20.437 [main] LoggerUtil - Vol contribution entered =10
+[INFO ] 2019-05-29 17:28:21.499 [main] LoggerUtil - Vol contribution frequancy selected =Annually
+[INFO ] 2019-05-29 17:28:22.136 [main] LoggerUtil - Medium risk selected 
+[INFO ] 2019-05-29 17:28:22.319 [main] LoggerUtil - Saving goal entered =200000
+[INFO ] 2019-05-29 17:28:23.044 [main] LoggerUtil - Switch back to normal frame 
+[INFO ] 2019-05-29 17:28:23.514 [main] LoggerUtil - Scroll the webpage to find the estimated amout element
+[INFO ] 2019-05-29 17:28:24.108 [main] LoggerUtil - Scroll the webpage to find the estimated amout element
+[INFO ] 2019-05-29 17:28:24.678 [main] LoggerUtil - Estimated amount is populated, and the amout is $176,557
+[INFO ] 2019-05-29 17:28:25.395 [main] LoggerUtil - ====================================End=Of=Test===========================================
+[INFO ] 2019-05-29 17:29:20.580 [main] LoggerUtil - ----------------------------------------------------------------------------------------
+[INFO ] 2019-05-29 17:29:20.594 [main] LoggerUtil - --------------------                 Information Icon presece check for all fields in Kiwi saver retirment calc page With chrome     
+[INFO ] 2019-05-29 17:29:20.595 [main] LoggerUtil - ----------------------------------------------------------------------------------------
+[INFO ] 2019-05-29 17:29:25.242 [main] LoggerUtil - Navigated to main page
+[INFO ] 2019-05-29 17:29:35.303 [main] LoggerUtil - Switch to KiwiSaverCalc iframe 
+[INFO ] 2019-05-29 17:29:35.386 [main] LoggerUtil - Current Age entered =64
+[INFO ] 2019-05-29 17:29:36.001 [main] LoggerUtil - Emp Status entered 
+[INFO ] 2019-05-29 17:29:36.187 [main] LoggerUtil - Annual income entered =Employed
+[INFO ] 2019-05-29 17:29:36.461 [main] LoggerUtil - KiwiSaver Member contribution selected =6
+[INFO ] 2019-05-29 17:29:37.020 [main] LoggerUtil - PRI rate selected =10.5%
+[INFO ] 2019-05-29 17:29:38.453 [main] LoggerUtil - Taxable income selected 
+[INFO ] 2019-05-29 17:29:38.497 [main] LoggerUtil - KiwiSaver current balance entered =1000
+[INFO ] 2019-05-29 17:29:38.546 [main] LoggerUtil - Vol contribution entered =100
+[INFO ] 2019-05-29 17:29:39.756 [main] LoggerUtil - Vol contribution frequancy selected =Monthly
+[INFO ] 2019-05-29 17:29:40.588 [main] LoggerUtil - Medium risk selected 
+[INFO ] 2019-05-29 17:29:40.642 [main] LoggerUtil - Saving goal entered =30000
+[INFO ] 2019-05-29 17:29:42.347 [main] LoggerUtil - Switch back to normal frame 
+[INFO ] 2019-05-29 17:29:43.071 [main] LoggerUtil - Expect Info button CurrentAge is displayed. 
+[INFO ] 2019-05-29 17:29:43.958 [main] LoggerUtil - Expect Info button EmploymentStatus is displayed. 
+[INFO ] 2019-05-29 17:29:44.702 [main] LoggerUtil - Expect Info button AnnualIncome is displayed. 
+[INFO ] 2019-05-29 17:29:45.445 [main] LoggerUtil - Expect Info button KiwiSaverMemberContribution is displayed. 
+[INFO ] 2019-05-29 17:29:46.158 [main] LoggerUtil - Expect Info button PIRRate is displayed. 
+[INFO ] 2019-05-29 17:29:47.744 [main] LoggerUtil - Expect Info button FindMyPIRRateQ1 is displayed. 
+[INFO ] 2019-05-29 17:29:48.466 [main] LoggerUtil - Expect Info button KiwiSaverBalance is displayed. 
+[INFO ] 2019-05-29 17:29:49.201 [main] LoggerUtil - Expect Info button VoluntaryContributions is displayed. 
+[INFO ] 2019-05-29 17:29:49.926 [main] LoggerUtil - Expect Info button RiskProfile is displayed. 
+[INFO ] 2019-05-29 17:29:50.686 [main] LoggerUtil - Expect Info button SavingsGoal is displayed. 
+[INFO ] 2019-05-29 17:29:51.444 [main] LoggerUtil - Expect Info button Results is displayed. 
+[INFO ] 2019-05-29 17:29:52.196 [main] LoggerUtil - Expect Info button ResultsExplanation is displayed. 
+[INFO ] 2019-05-29 17:29:52.927 [main] LoggerUtil - Expect Info button LifeExpectancy is displayed. 
+[INFO ] 2019-05-29 17:29:53.653 [main] LoggerUtil - Expect Info button RetirementAge is displayed. 
+[INFO ] 2019-05-29 17:29:54.374 [main] LoggerUtil - Expect Info button InflationOption is displayed. 
+[INFO ] 2019-05-29 17:29:55.102 [main] LoggerUtil - Expect Info button AnnualIncomeIncrease is displayed. 
+[INFO ] 2019-05-29 17:29:56.333 [main] LoggerUtil - ====================================End=Of=Test===========================================
+[INFO ] 2019-05-29 17:30:00.473 [main] LoggerUtil - ----------------------------------------------------------------------------------------
+[INFO ] 2019-05-29 17:30:00.473 [main] LoggerUtil - --------------------                 Expected help text displayed for clicked help button With chrome     
+[INFO ] 2019-05-29 17:30:00.474 [main] LoggerUtil - ----------------------------------------------------------------------------------------
+[INFO ] 2019-05-29 17:30:04.483 [main] LoggerUtil - Navigated to main page
+[INFO ] 2019-05-29 17:30:15.166 [main] LoggerUtil - Clicked Info button CurrentAge. 
+[INFO ] 2019-05-29 17:30:15.333 [main] LoggerUtil - Expected help info icon This calculator has an age limit of 64 years old as you need to be under the age of 65 to join KiwiSaver. is Visible, Screenshot captured and stored
+[INFO ] 2019-05-29 17:30:16.396 [main] LoggerUtil - ====================================End=Of=Test===========================================
+[INFO ] 2019-05-29 17:30:20.502 [main] LoggerUtil - ----------------------------------------------------------------------------------------
+[INFO ] 2019-05-29 17:30:20.502 [main] LoggerUtil - --------------------                 Projected Balance Check for Employed, age 30, Anual income 82000, KiwiMemContribution 4, PIRRate 17.5 and RiskProfile High With chrome     
+[INFO ] 2019-05-29 17:30:20.503 [main] LoggerUtil - ----------------------------------------------------------------------------------------
+[INFO ] 2019-05-29 17:30:24.832 [main] LoggerUtil - Navigated to main page
+[INFO ] 2019-05-29 17:30:34.433 [main] LoggerUtil - Switch to KiwiSaverCalc iframe 
+[INFO ] 2019-05-29 17:30:34.518 [main] LoggerUtil - Current Age entered =30
+[INFO ] 2019-05-29 17:30:35.203 [main] LoggerUtil - Emp Status entered 
+[INFO ] 2019-05-29 17:30:35.379 [main] LoggerUtil - Annual income entered =Employed
+[INFO ] 2019-05-29 17:30:35.685 [main] LoggerUtil - KiwiSaver Member contribution selected =4
+[INFO ] 2019-05-29 17:30:36.279 [main] LoggerUtil - PRI rate selected =17.5%
+[INFO ] 2019-05-29 17:30:37.105 [main] LoggerUtil - High risk selected 
+[INFO ] 2019-05-29 17:30:37.937 [main] LoggerUtil - Switch back to normal frame 
+[INFO ] 2019-05-29 17:30:38.180 [main] LoggerUtil - Scroll the webpage to find the estimated amout element
+[INFO ] 2019-05-29 17:30:38.766 [main] LoggerUtil - Scroll the webpage to find the estimated amout element
+[INFO ] 2019-05-29 17:30:39.328 [main] LoggerUtil - Estimated amount is populated, and the amout is $313,971
+[INFO ] 2019-05-29 17:30:40.515 [main] LoggerUtil - ====================================End=Of=Test===========================================
+[INFO ] 2019-05-29 17:30:44.120 [main] LoggerUtil - ----------------------------------------------------------------------------------------
+[INFO ] 2019-05-29 17:30:44.121 [main] LoggerUtil - --------------------                 Projected Balance Check for Self-Employed, age 45, PIRRate 10.5, KiwiBalance 100000, Vol contribution 90, With chrome     
+[INFO ] 2019-05-29 17:30:44.122 [main] LoggerUtil - ----------------------------------------------------------------------------------------
+[INFO ] 2019-05-29 17:30:48.534 [main] LoggerUtil - Navigated to main page
+[INFO ] 2019-05-29 17:30:58.290 [main] LoggerUtil - Switch to KiwiSaverCalc iframe 
+[INFO ] 2019-05-29 17:30:58.387 [main] LoggerUtil - Current Age entered =45
+[INFO ] 2019-05-29 17:30:58.969 [main] LoggerUtil - Emp Status entered 
+[INFO ] 2019-05-29 17:30:59.561 [main] LoggerUtil - PRI rate selected =10.5%
+[INFO ] 2019-05-29 17:30:59.630 [main] LoggerUtil - KiwiSaver current balance entered =100000
+[INFO ] 2019-05-29 17:30:59.671 [main] LoggerUtil - Vol contribution entered =90
+[INFO ] 2019-05-29 17:31:00.858 [main] LoggerUtil - Vol contribution frequancy selected =Fortnightly
+[INFO ] 2019-05-29 17:31:01.651 [main] LoggerUtil - Medium risk selected 
+[INFO ] 2019-05-29 17:31:01.707 [main] LoggerUtil - Saving goal entered =290000
+[INFO ] 2019-05-29 17:31:02.554 [main] LoggerUtil - Switch back to normal frame 
+[INFO ] 2019-05-29 17:31:02.720 [main] LoggerUtil - Scroll the webpage to find the estimated amout element
+[INFO ] 2019-05-29 17:31:03.316 [main] LoggerUtil - Scroll the webpage to find the estimated amout element
+[INFO ] 2019-05-29 17:31:03.882 [main] LoggerUtil - Estimated amount is populated, and the amout is $230,481
+[INFO ] 2019-05-29 17:31:05.109 [main] LoggerUtil - ====================================End=Of=Test===========================================
+[INFO ] 2019-05-29 17:31:09.235 [main] LoggerUtil - ----------------------------------------------------------------------------------------
+[INFO ] 2019-05-29 17:31:09.236 [main] LoggerUtil - --------------------                 Projected Balance Check for Not Employed, age 55, PIRRate 10.5, KiwiBalance 140000, Vol contribution 10, With chrome     
+[INFO ] 2019-05-29 17:31:09.236 [main] LoggerUtil - ----------------------------------------------------------------------------------------
+[INFO ] 2019-05-29 17:31:13.618 [main] LoggerUtil - Navigated to main page
+[INFO ] 2019-05-29 17:31:23.744 [main] LoggerUtil - Switch to KiwiSaverCalc iframe 
+[INFO ] 2019-05-29 17:31:23.821 [main] LoggerUtil - Current Age entered =55
+[INFO ] 2019-05-29 17:31:24.362 [main] LoggerUtil - Emp Status entered 
+[INFO ] 2019-05-29 17:31:24.886 [main] LoggerUtil - PRI rate selected =10.5%
+[INFO ] 2019-05-29 17:31:24.947 [main] LoggerUtil - KiwiSaver current balance entered =140000
+[INFO ] 2019-05-29 17:31:24.987 [main] LoggerUtil - Vol contribution entered =10
+[INFO ] 2019-05-29 17:31:26.227 [main] LoggerUtil - Vol contribution frequancy selected =Annually
+[INFO ] 2019-05-29 17:31:27.036 [main] LoggerUtil - Medium risk selected 
+[INFO ] 2019-05-29 17:31:27.083 [main] LoggerUtil - Saving goal entered =200000
+[INFO ] 2019-05-29 17:31:27.926 [main] LoggerUtil - Switch back to normal frame 
+[INFO ] 2019-05-29 17:31:28.064 [main] LoggerUtil - Scroll the webpage to find the estimated amout element
+[INFO ] 2019-05-29 17:31:28.624 [main] LoggerUtil - Scroll the webpage to find the estimated amout element
+[INFO ] 2019-05-29 17:31:29.203 [main] LoggerUtil - Estimated amount is populated, and the amout is $176,557
+[INFO ] 2019-05-29 17:31:30.371 [main] LoggerUtil - ====================================End=Of=Test===========================================
+[INFO ] 2019-05-29 17:32:15.774 [main] LoggerUtil - ----------------------------------------------------------------------------------------
+[INFO ] 2019-05-29 17:32:15.778 [main] LoggerUtil - --------------------                 Information Icon presece check for all fields in Kiwi saver retirment calc page With chrome     
+[INFO ] 2019-05-29 17:32:15.778 [main] LoggerUtil - ----------------------------------------------------------------------------------------
+[INFO ] 2019-05-29 17:32:19.880 [main] LoggerUtil - Navigated to main page
+[INFO ] 2019-05-29 17:32:29.892 [main] LoggerUtil - Switch to KiwiSaverCalc iframe 
+[INFO ] 2019-05-29 17:32:29.994 [main] LoggerUtil - Current Age entered =64
+[INFO ] 2019-05-29 17:32:30.702 [main] LoggerUtil - Emp Status entered 
+[INFO ] 2019-05-29 17:32:30.836 [main] LoggerUtil - Annual income entered =Employed
+[INFO ] 2019-05-29 17:32:31.115 [main] LoggerUtil - KiwiSaver Member contribution selected =6
+[INFO ] 2019-05-29 17:32:31.685 [main] LoggerUtil - PRI rate selected =10.5%
+[INFO ] 2019-05-29 17:32:33.106 [main] LoggerUtil - Taxable income selected 
+[INFO ] 2019-05-29 17:32:33.147 [main] LoggerUtil - KiwiSaver current balance entered =1000
+[INFO ] 2019-05-29 17:32:33.198 [main] LoggerUtil - Vol contribution entered =100
+[INFO ] 2019-05-29 17:32:34.436 [main] LoggerUtil - Vol contribution frequancy selected =Monthly
+[INFO ] 2019-05-29 17:32:35.247 [main] LoggerUtil - Medium risk selected 
+[INFO ] 2019-05-29 17:32:35.293 [main] LoggerUtil - Saving goal entered =30000
+[INFO ] 2019-05-29 17:32:36.960 [main] LoggerUtil - Switch back to normal frame 
+[INFO ] 2019-05-29 17:32:37.687 [main] LoggerUtil - Expect Info button CurrentAge is displayed. 
+[INFO ] 2019-05-29 17:32:38.728 [main] LoggerUtil - Expect Info button EmploymentStatus is displayed. 
+[INFO ] 2019-05-29 17:32:39.443 [main] LoggerUtil - Expect Info button AnnualIncome is displayed. 
+[INFO ] 2019-05-29 17:32:40.150 [main] LoggerUtil - Expect Info button KiwiSaverMemberContribution is displayed. 
+[INFO ] 2019-05-29 17:32:40.865 [main] LoggerUtil - Expect Info button PIRRate is displayed. 
+[INFO ] 2019-05-29 17:32:42.437 [main] LoggerUtil - Expect Info button FindMyPIRRateQ1 is displayed. 
+[INFO ] 2019-05-29 17:32:43.166 [main] LoggerUtil - Expect Info button KiwiSaverBalance is displayed. 
+[INFO ] 2019-05-29 17:32:43.902 [main] LoggerUtil - Expect Info button VoluntaryContributions is displayed. 
+[INFO ] 2019-05-29 17:32:44.629 [main] LoggerUtil - Expect Info button RiskProfile is displayed. 
+[INFO ] 2019-05-29 17:32:45.348 [main] LoggerUtil - Expect Info button SavingsGoal is displayed. 
+[INFO ] 2019-05-29 17:32:46.070 [main] LoggerUtil - Expect Info button Results is displayed. 
+[INFO ] 2019-05-29 17:32:46.798 [main] LoggerUtil - Expect Info button ResultsExplanation is displayed. 
+[INFO ] 2019-05-29 17:32:47.521 [main] LoggerUtil - Expect Info button LifeExpectancy is displayed. 
+[INFO ] 2019-05-29 17:32:48.242 [main] LoggerUtil - Expect Info button RetirementAge is displayed. 
+[INFO ] 2019-05-29 17:32:48.959 [main] LoggerUtil - Expect Info button InflationOption is displayed. 
+[INFO ] 2019-05-29 17:32:49.672 [main] LoggerUtil - Expect Info button AnnualIncomeIncrease is displayed. 
+[INFO ] 2019-05-29 17:32:50.898 [main] LoggerUtil - ====================================End=Of=Test===========================================
+[INFO ] 2019-05-29 17:32:54.560 [main] LoggerUtil - ----------------------------------------------------------------------------------------
+[INFO ] 2019-05-29 17:32:54.561 [main] LoggerUtil - --------------------                 Expected help text displayed for clicked help button With chrome     
+[INFO ] 2019-05-29 17:32:54.562 [main] LoggerUtil - ----------------------------------------------------------------------------------------
+[INFO ] 2019-05-29 17:32:58.611 [main] LoggerUtil - Navigated to main page
+[INFO ] 2019-05-29 17:33:13.967 [main] LoggerUtil - Clicked Info button CurrentAge. 
+[INFO ] 2019-05-29 17:33:14.115 [main] LoggerUtil - Expected help info icon This calculator has an age limit of 64 years old as you need to be under the age of 65 to join KiwiSaver. is Visible, Screenshot captured and stored
+[INFO ] 2019-05-29 17:33:15.315 [main] LoggerUtil - ====================================End=Of=Test===========================================
+[INFO ] 2019-05-29 17:33:19.430 [main] LoggerUtil - ----------------------------------------------------------------------------------------
+[INFO ] 2019-05-29 17:33:19.430 [main] LoggerUtil - --------------------                 Projected Balance Check for Employed, age 30, Anual income 82000, KiwiMemContribution 4, PIRRate 17.5 and RiskProfile High With chrome     
+[INFO ] 2019-05-29 17:33:19.431 [main] LoggerUtil - ----------------------------------------------------------------------------------------
+[INFO ] 2019-05-29 17:33:21.515 [main] LoggerUtil - Navigated to main page
+[INFO ] 2019-05-29 17:33:31.319 [main] LoggerUtil - Switch to KiwiSaverCalc iframe 
+[INFO ] 2019-05-29 17:33:31.402 [main] LoggerUtil - Current Age entered =30
+[INFO ] 2019-05-29 17:33:32.031 [main] LoggerUtil - Emp Status entered 
+[INFO ] 2019-05-29 17:33:32.175 [main] LoggerUtil - Annual income entered =Employed
+[INFO ] 2019-05-29 17:33:32.457 [main] LoggerUtil - KiwiSaver Member contribution selected =4
+[INFO ] 2019-05-29 17:33:33.025 [main] LoggerUtil - PRI rate selected =17.5%
+[INFO ] 2019-05-29 17:33:33.828 [main] LoggerUtil - High risk selected 
+[INFO ] 2019-05-29 17:33:34.664 [main] LoggerUtil - Switch back to normal frame 
+[INFO ] 2019-05-29 17:33:34.845 [main] LoggerUtil - Scroll the webpage to find the estimated amout element
+[INFO ] 2019-05-29 17:33:35.433 [main] LoggerUtil - Scroll the webpage to find the estimated amout element
+[INFO ] 2019-05-29 17:33:36.008 [main] LoggerUtil - Estimated amount is populated, and the amout is $313,971
+[INFO ] 2019-05-29 17:33:37.233 [main] LoggerUtil - ====================================End=Of=Test===========================================
+[INFO ] 2019-05-29 17:33:41.377 [main] LoggerUtil - ----------------------------------------------------------------------------------------
+[INFO ] 2019-05-29 17:33:41.377 [main] LoggerUtil - --------------------                 Projected Balance Check for Self-Employed, age 45, PIRRate 10.5, KiwiBalance 100000, Vol contribution 90, With chrome     
+[INFO ] 2019-05-29 17:33:41.377 [main] LoggerUtil - ----------------------------------------------------------------------------------------
+[INFO ] 2019-05-29 17:33:45.298 [main] LoggerUtil - Navigated to main page
+[INFO ] 2019-05-29 17:33:54.947 [main] LoggerUtil - Switch to KiwiSaverCalc iframe 
+[INFO ] 2019-05-29 17:33:55.041 [main] LoggerUtil - Current Age entered =45
+[INFO ] 2019-05-29 17:33:55.619 [main] LoggerUtil - Emp Status entered 
+[INFO ] 2019-05-29 17:33:56.186 [main] LoggerUtil - PRI rate selected =10.5%
+[INFO ] 2019-05-29 17:33:56.256 [main] LoggerUtil - KiwiSaver current balance entered =100000
+[INFO ] 2019-05-29 17:33:56.295 [main] LoggerUtil - Vol contribution entered =90
+[INFO ] 2019-05-29 17:33:57.542 [main] LoggerUtil - Vol contribution frequancy selected =Fortnightly
+[INFO ] 2019-05-29 17:33:58.367 [main] LoggerUtil - Medium risk selected 
+[INFO ] 2019-05-29 17:33:58.421 [main] LoggerUtil - Saving goal entered =290000
+[INFO ] 2019-05-29 17:33:59.247 [main] LoggerUtil - Switch back to normal frame 
+[INFO ] 2019-05-29 17:33:59.392 [main] LoggerUtil - Scroll the webpage to find the estimated amout element
+[INFO ] 2019-05-29 17:33:59.959 [main] LoggerUtil - Scroll the webpage to find the estimated amout element
+[INFO ] 2019-05-29 17:34:00.528 [main] LoggerUtil - Estimated amount is populated, and the amout is $230,481
+[INFO ] 2019-05-29 17:34:01.709 [main] LoggerUtil - ====================================End=Of=Test===========================================
+[INFO ] 2019-05-29 17:34:05.333 [main] LoggerUtil - ----------------------------------------------------------------------------------------
+[INFO ] 2019-05-29 17:34:05.333 [main] LoggerUtil - --------------------                 Projected Balance Check for Not Employed, age 55, PIRRate 10.5, KiwiBalance 140000, Vol contribution 10, With chrome     
+[INFO ] 2019-05-29 17:34:05.333 [main] LoggerUtil - ----------------------------------------------------------------------------------------
+[INFO ] 2019-05-29 17:34:07.253 [main] LoggerUtil - Navigated to main page
+[INFO ] 2019-05-29 17:34:17.020 [main] LoggerUtil - Switch to KiwiSaverCalc iframe 
+[INFO ] 2019-05-29 17:34:17.104 [main] LoggerUtil - Current Age entered =55
+[INFO ] 2019-05-29 17:34:17.677 [main] LoggerUtil - Emp Status entered 
+[INFO ] 2019-05-29 17:34:18.221 [main] LoggerUtil - PRI rate selected =10.5%
+[INFO ] 2019-05-29 17:34:18.318 [main] LoggerUtil - KiwiSaver current balance entered =140000
+[INFO ] 2019-05-29 17:34:18.368 [main] LoggerUtil - Vol contribution entered =10
+[INFO ] 2019-05-29 17:34:19.659 [main] LoggerUtil - Vol contribution frequancy selected =Annually
+[INFO ] 2019-05-29 17:34:20.493 [main] LoggerUtil - Medium risk selected 
+[INFO ] 2019-05-29 17:34:20.545 [main] LoggerUtil - Saving goal entered =200000
+[INFO ] 2019-05-29 17:34:21.392 [main] LoggerUtil - Switch back to normal frame 
+[INFO ] 2019-05-29 17:34:21.589 [main] LoggerUtil - Scroll the webpage to find the estimated amout element
+[INFO ] 2019-05-29 17:34:22.178 [main] LoggerUtil - Scroll the webpage to find the estimated amout element
+[INFO ] 2019-05-29 17:34:22.747 [main] LoggerUtil - Estimated amount is populated, and the amout is $176,557
+[INFO ] 2019-05-29 17:34:23.924 [main] LoggerUtil - ====================================End=Of=Test===========================================

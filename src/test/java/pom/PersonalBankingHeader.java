@@ -8,6 +8,10 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
+import utils.JavaScripts;
+import utils.Jutils;
+import utils.LoggerUtil;
+
 /**
  * @author Shyam Periyasamy
  * 
@@ -28,6 +32,10 @@ public class PersonalBankingHeader extends MainPage {
 	public PersonalBankingHeader(WebDriver driver) {
 		super(driver);
 	}
+	
+	JavaScripts jsUtils=new JavaScripts();
+	Jutils jUtils=new Jutils();
+	LoggerUtil logger=new LoggerUtil();
 	
 	/* Common WebElements of personal banking */
 	
@@ -67,8 +75,12 @@ public class PersonalBankingHeader extends MainPage {
 		for (int i=0;i<headingLinkCommon;i++) {
 			ele=lstPersonalHeader.get(i);
 			if (ele.getText().equals(uberMenu)) {
+			jsUtils.moveToElement(ele,driver);
+			driverWaitFor(10).until(ExpectedConditions.visibilityOf(ele));
+			jsUtils.moveToElement(ele, driver);
 			Actions act=new Actions(driver);
 			act.moveToElement(ele).perform();
+			logger.info("Mouse moved to "+ele.getText());
 			break;
 			}
 		}

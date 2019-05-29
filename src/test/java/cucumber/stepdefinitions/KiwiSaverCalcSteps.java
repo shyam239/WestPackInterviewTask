@@ -38,13 +38,15 @@ public class KiwiSaverCalcSteps {
 			options.addArguments("--start-maximized");
 			driver = new ChromeDriver(options);
 			scenarioName=scenario.getName();
-			logger.startTestCase(scenarioName+" With chrome");
+			logger.startTestCase(scenarioName);
+			logger.info("Chrome browser started");
 		}else if(driverName.equals("Firefox")) {
 			System.setProperty("webdriver.gecko.driver", getPropFile.forDrivers("firefox"));
 			driver = new FirefoxDriver();
 			driver.manage().window().maximize();
 			scenarioName=scenario.getName();
-			logger.startTestCase(scenarioName+" With chrome");
+			logger.startTestCase(scenarioName);
+			logger.info("Firefox browser started");
 		}
 	}
 	
