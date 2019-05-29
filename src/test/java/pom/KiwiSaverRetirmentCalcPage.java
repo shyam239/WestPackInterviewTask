@@ -121,7 +121,9 @@ public class KiwiSaverRetirmentCalcPage extends MainPage{
 	/* Actions or functions of KiwiSaverRetirmentCalc Page*/
 	
 	public String getEstimatedAmt() {
+		logger.info("Scroll the webpage to find the estimated amout element");	
 		jsUtils.moveToElement(estimatedAmt,driver);
+		driverWaitFor(10).until(ExpectedConditions.visibilityOf(estimatedAmt));
 		return estimatedAmt.getText().replaceAll("\\s+","");
 	}
 	
@@ -129,7 +131,8 @@ public class KiwiSaverRetirmentCalcPage extends MainPage{
 	 * Checks the show view your kiwisaver retirment projection button displayed and clicks
 	 */
 	public void clickBtnShowResultPanel() {
-		driverWaitFor(10).until(ExpectedConditions.visibilityOf(btnShowResultPanel));
+		jsUtils.moveToElement(btnShowResultPanel, driver);
+		driverWaitFor(10).until(ExpectedConditions.elementToBeClickable(btnShowResultPanel));
 		btnShowResultPanel.click();
 	}
 	
@@ -144,6 +147,7 @@ public class KiwiSaverRetirmentCalcPage extends MainPage{
 		for (int i=0;i<lstSelVolContriFrequ.size();i++) {
 			ele=(WebElement) lstSelVolContriFrequ.get(i);
 			if (ele.getText().equals(frequency)) {
+				jsUtils.moveToElement(ele, driver);
 				ele.click();
 			break;
 			}
@@ -155,6 +159,7 @@ public class KiwiSaverRetirmentCalcPage extends MainPage{
 	 * click low risk profile
 	 */
 	public void clickBtnRiskProfLow() {
+		jsUtils.moveToElement(btnRiskProfLow, driver);
 		btnRiskProfLow.click();
 	}
 	
@@ -162,6 +167,7 @@ public class KiwiSaverRetirmentCalcPage extends MainPage{
 	 * click high risk profile
 	 */
 	public void clickBtnRiskProfMedium() {
+		jsUtils.moveToElement(btnRiskProfLow, driver);
 		btnRiskProfMedium.click();
 	}
 	
@@ -169,6 +175,7 @@ public class KiwiSaverRetirmentCalcPage extends MainPage{
 	 * click high risk profile
 	 */
 	public void clickBthRiskProfHigh() {
+		jsUtils.moveToElement(btnRiskProfLow, driver);
 		btnRiskProfHigh.click();
 	}
 	
@@ -286,6 +293,7 @@ public class KiwiSaverRetirmentCalcPage extends MainPage{
 	 * clicks Find My Rate link
 	 */
 	public void clickViewFindMyRate() {
+		jsUtils.moveToElement(viewFindMyRate, driver);
 		driverWaitFor(10).until(ExpectedConditions.elementToBeClickable(viewFindMyRate));
 		viewFindMyRate.click();
 	}

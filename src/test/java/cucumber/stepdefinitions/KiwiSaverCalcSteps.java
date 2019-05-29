@@ -7,6 +7,7 @@ import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import cucumber.api.DataTable;
 import cucumber.api.Scenario;
 import cucumber.api.java.After;
@@ -23,20 +24,55 @@ public class KiwiSaverCalcSteps {
 	
 	Jutils jUtils=new Jutils();	
 	LoggerUtil logger=new LoggerUtil();
+	GetPropFile getPropFile=new GetPropFile();
+	
+	String driverName;
 	String scenarioName;
+	
+	@Before()
+	public void testSetup(Scenario scenario) {
+		driverName=System.getProperty("driverName");
+		if(driverName.equals("Chrome")) {
+			System.setProperty("webdriver.chrome.driver", getPropFile.forDrivers("chrome"));
+			ChromeOptions options = new ChromeOptions();
+			options.addArguments("--start-maximized");
+			driver = new ChromeDriver(options);
+			scenarioName=scenario.getName();
+			logger.startTestCase(scenarioName+" With chrome");
+		}else if(driverName.equals("Firefox")) {
+			System.setProperty("webdriver.gecko.driver", getPropFile.forDrivers("firefox"));
+			driver = new FirefoxDriver();
+			driver.manage().window().maximize();
+			scenarioName=scenario.getName();
+			logger.startTestCase(scenarioName+" With chrome");
+		}
+	}
 	
 	/**
 	 * Open a chrome driver before all the test
 	 * @param scenario 
 	 */
-	@Before
-	public void testSetup(Scenario scenario) {
-		System.setProperty("webdriver.chrome.driver", "./src/test/resources/drivers/chrome/chromedriver.exe");
+	@Before("@Chrome")
+	public void testSetupChrome(Scenario scenario) {
+		System.setProperty("webdriver.chrome.driver", getPropFile.forDrivers("chrome"));
 		ChromeOptions options = new ChromeOptions();
 		options.addArguments("--start-maximized");
 		driver = new ChromeDriver(options);
 		scenarioName=scenario.getName();
-		logger.startTestCase(scenarioName);
+		logger.startTestCase(scenarioName+" With chrome");
+	}
+	
+	/**
+	 * Open a firefox driver before all the test
+	 * @param scenario 
+	 */
+	@Before("@Firefox")
+	public void testSetupFirefox(Scenario scenario) {
+		System.setProperty("webdriver.gecko.driver", getPropFile.forDrivers("firefox"));
+		driver = new FirefoxDriver();
+		driver.manage().window().maximize();
+		scenarioName=scenario.getName();
+		logger.startTestCase(scenarioName+" With chrome");
 	}
 	
 

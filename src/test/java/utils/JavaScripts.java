@@ -49,6 +49,6 @@ public class JavaScripts{
 	
 	public void moveToElement(WebElement element, WebDriver driver) {
 		((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", element);
-		jutils.sleepFor(50);
+		jutils.sleepFor(500);
 	}
 }
